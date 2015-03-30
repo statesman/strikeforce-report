@@ -6,8 +6,20 @@
 .finding-hed {
   display: inline-block;
   float: left;
-  margin-left: 1%;
-  width: 91%;
+  margin-left: 2%;
+  width: 82%;
+  @media (min-width: @screen-sm-min) {
+    margin-left: 1%;
+    width: 85%;
+  }
+  @media (min-width: @screen-md-min) {
+    margin-left: 1%;
+    width: 88%;
+  }
+  @media (min-width: @screen-lg-min) {
+    margin-left: 1%;
+    width: 91%;
+  }
 }
 .finding-num {
   float: left;
