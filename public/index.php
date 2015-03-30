@@ -76,7 +76,7 @@
         <h1><?php print $meta['title']; ?></h1>
         <p class="author">Interactive by Andrew Chavez, J. David McSwane and Andrea Ball, American-Statesman<br />Published March 30, 2015</p>
         <p>A report from a “strike force” assembled by Gov. Greg Abbott in the wake of the 21CT contracting scandal, released today, criticizes purchasing practices at the state's largest agency and at the state agency responsible for information technology purchasing.</p>
-        <p>The report drew largely on news reports as source material in its explanation of how 21CT came to land a lucrative contract without competition. The strike force investigation came in response to an American-Statesman investigation into the commission’s multimillion-dollar, no-bid deals with 21CT, which was hired to help with Medicaid fraud investigations.</p>
+        <p>The report drew largely on news reports as source material in its explanation of how 21CT came to land a lucrative contract without competition. The strike force investigation came following an American-Statesman investigation into the commission’s multimillion-dollar, no-bid deals with 21CT, which was hired to help with Medicaid fraud investigations.</p>
         <p>Key excerpts from the 92-page report are below.</p>
         <p><a href="http://www.mystatesman.com/news/news/state-regional-govt-politics/abbotts-strike-force-report-on-texas-health-agency/nkhnr/">Related: Abbott’s strike force: 21CT deal a ‘fiasco’ that skirted the law <i class="fa fa-angle-double-right"></i></a></p>
       </div>
@@ -85,7 +85,7 @@
 
       <div class="row">
 
-        <div class="col-xs-12 col-sm-9 col-md-8 findings">
+        <div class="col-xs-12 col-sm-8 findings">
           <?php $findings = json_decode(file_get_contents('data/findings.json')); ?>
           <?php $i = 1; ?>
           <?php foreach($findings as $f): ?>
@@ -93,7 +93,7 @@
               <div class="clearfix">
                 <div class="finding-num"><?php echo $i; ?></div>
                 <div class="finding-hed clearfix">
-                  <h3> <?php echo $f->hed; ?></h3>
+                  <h3><?php echo $f->hed; ?><?php /* <a title="Share this" href="https://twitter.com/intent/tweet?text=<?php echo urlencode('21CT strike force report: ' . $f->hed); ?>&url=<?php echo urlencode($meta['url']); ?>&hashtags=txlege&related=statesman" target="_blank"><i class="fa fa-twitter"></i></a>*/?></h3>
                   <p><?php echo $f->desc; ?></p>
                 </div>
               </div>
@@ -107,16 +107,14 @@
           <?php endforeach; ?>
         </div>
 
-        <div class="col-xs-12 col-sm-3 col-md-4 timeline">
+        <div class="col-xs-12 col-sm-4 timeline">
           <div>
             <h2>Read the complete report</h2>
-            <div class="row full-doc-link">
-              <div class="col-xs-6">
+            <div class="full-doc-link clearfix">
+              <div class="pull-left">
                 <img src="assets/cover.gif" class="img-responsive" />
               </div>
-              <div class="col-xs-6" style="padding-left:0;">
-                <a href="http://projects.statesman.com/documents/?doc=1697981-strike-force" target="_blank">Read and search the complete report in our document viewer</a>
-              </div>
+              <a href="http://projects.statesman.com/documents/?doc=1697981-strike-force" target="_blank">Read and search the complete report in our document viewer</a>
             </div>
           </div>
 
