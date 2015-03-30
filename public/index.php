@@ -8,7 +8,7 @@
       $meta = array(
         'title' => "8 key passages from the 21CT ‘strike force’ report",
         'description' => '',
-        'thumbnail' => 'http://projects.statesman.com/news/strikeforce-report/assets/share.png',
+        'thumbnail' => 'http://projects.statesman.com/news/strikeforce-report/assets/share.jpg',
         'url' => 'http://projects.statesman.com/news/strikeforce-report/',
         'twitter' => 'statesman'
       );
