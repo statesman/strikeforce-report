@@ -78,7 +78,7 @@
         <p>A report from a "strike force" assembled by Gov. Greg Abbott in the wake of the 21CT contracting scandal, released today, criticizes purchasing practices at the state's largest agency and at the state agency responsible for information technology purchasing.</p>
         <p>The report drew largely on news reports as source material in its explanation of how 21CT, an untested company, came to land a lucrative contract without competition. The strike force investigation came in response to an American-Statesman investigation into the commission’s multimillion-dollar, no-bid deals with 21CT, which was hired to help with Medicaid fraud investigations.</p>
         <p>Key excerpts from the 92-page report are below.</p>
-        <p><a href="http://projects.statesman.com/news/itsac-top-paid/">Related: Story about report <i class="fa fa-angle-double-right"></i></a></p>
+        <p><a href="http://www.mystatesman.com/news/news/state-regional-govt-politics/abbotts-strike-force-report-on-texas-health-agency/nkhnr/">Related: Abbott’s strike force: 21CT deal a ‘fiasco’ that skirted the law <i class="fa fa-angle-double-right"></i></a></p>
       </div>
 
       <hr />
@@ -90,8 +90,13 @@
           <?php $i = 1; ?>
           <?php foreach($findings as $f): ?>
             <div class="finding">
-              <h3><span class="finding-num"><?php echo $i; ?></span> <?php echo $f->hed; ?></h3>
-              <p><?php echo $f->desc; ?></p>
+              <div class="clearfix">
+                <div class="finding-num"><?php echo $i; ?></div>
+                <div class="finding-hed clearfix">
+                  <h3> <?php echo $f->hed; ?></h3>
+                  <p><?php echo $f->desc; ?></p>
+                </div>
+              </div>
               <div class="finding-img clearfix">
                 <blockquote class="hidden-md hidden-lg"><i class="fa fa-quote-left"></i> <?php echo $f->text; ?> <i class="fa fa-quote-right"></i></blockquote>
                 <img class="img-responsive hidden-xs hidden-sm" src="assets/<?php echo $f->img; ?>" />
