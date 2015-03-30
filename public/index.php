@@ -103,30 +103,36 @@
         </div>
 
         <div class="col-xs-12 col-sm-3 col-md-4 timeline">
-          <h2>Read the complete report</h2>
-          <div class="row full-doc-link">
-            <div class="col-xs-6">
-              <img src="assets/cover.gif" class="img-responsive" />
-            </div>
-            <div class="col-xs-6" style="padding-left:0;">
-              <a href="http://projects.statesman.com/documents/?doc=1697981-strike-force" target="_blank">Read and search the complete report in our document viewer</a>
+          <div>
+            <h2>Read the complete report</h2>
+            <div class="row full-doc-link">
+              <div class="col-xs-6">
+                <img src="assets/cover.gif" class="img-responsive" />
+              </div>
+              <div class="col-xs-6" style="padding-left:0;">
+                <a href="http://projects.statesman.com/documents/?doc=1697981-strike-force" target="_blank">Read and search the complete report in our document viewer</a>
+              </div>
             </div>
           </div>
 
-          <h2>The strike force</h2>
-          <p>The team, appointed by the governor's office, was led by <strong>Billy Hamilton</strong>, a former deputy comptroller, and included five other members who have experience with state contracts:</p>
-          <ul>
-            <li><strong>Scott McCown</strong>, clinical professor and director of the Children’s Rights Clinic at The University of Texas School of Law</li>
-            <li><strong>Heather Griffith Peterson</strong>, chief financial officer of the Texas Department of Agriculture</li>
-            <li><strong>Talmadge Heflin</strong>, director of the Center for Fiscal Policy at the conservative Texas Public Policy Foundation</li>
-          </ul>
+          <div>
+            <h2>The strike force</h2>
+            <p>The team, appointed by the governor's office, was led by <strong>Billy Hamilton</strong>, a former deputy comptroller, and included five other members who have experience with state contracts:</p>
+            <ul>
+              <li><strong>Scott McCown</strong>, clinical professor and director of the Children’s Rights Clinic at The University of Texas School of Law</li>
+              <li><strong>Heather Griffith Peterson</strong>, chief financial officer of the Texas Department of Agriculture</li>
+              <li><strong>Talmadge Heflin</strong>, director of the Center for Fiscal Policy at the conservative Texas Public Policy Foundation</li>
+            </ul>
+          </div>
 
-          <?php /*
-          <!-- Side info here: who's on the team, timeline, etc. -->
-          <h2>Key events</h2>
-          <h4>Date 1</h4>
-          <p>Give some background on the whole controversy here.</p>
-          */ ?>
+          <div>
+            <h2>Key events</h2>
+            <?php $events = json_decode(file_get_contents('data/timeline.json')); ?>
+            <?php foreach($events->timeline as $e): ?>
+              <h4><?php echo $e->date; ?></h4>
+              <p><?php echo $e->text; ?></p>
+            <?php endforeach; ?>
+          </div>
         </div>
 
       </div>

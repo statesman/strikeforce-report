@@ -96,7 +96,8 @@ module.exports = function(grunt) {
     archieml: {
       findings: {
         files: {
-          'public/data/findings.json': 'src/data/findings/*.aml'
+          'public/data/findings.json': 'src/data/findings/*.aml',
+          'public/data/timeline.json': 'src/data/timeline.aml'
         }
       }
     },
