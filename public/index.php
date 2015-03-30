@@ -6,7 +6,7 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <?php
       $meta = array(
-        'title' => "8 key passages from the 21CT 'strike force' report",
+        'title' => "8 key passages from the 21CT ‘strike force’ report",
         'description' => '',
         'thumbnail' => 'http://projects.statesman.com/news/itsac-database/assets/share.png',
         'url' => 'http://projects.statesman.com/news/itsac-database/',
@@ -75,7 +75,7 @@
         <h4>Texas state government</h4>
         <h1><?php print $meta['title']; ?></h1>
         <p class="author">Interactive by Andrew Chavez, J. David McSwane and Andrea Ball, American-Statesman<br />Published March 30, 2015</p>
-        <p>A report from a "strike force" assembled by Gov. Greg Abbott in the wake of the 21CT contracting scandal, released today, criticizes purchasing practices at the state's largest agency and at the state agency responsible for information technology purchasing.</p>
+        <p>A report from a “strike force” assembled by Gov. Greg Abbott in the wake of the 21CT contracting scandal, released today, criticizes purchasing practices at the state's largest agency and at the state agency responsible for information technology purchasing.</p>
         <p>The report drew largely on news reports as source material in its explanation of how 21CT came to land a lucrative contract without competition. The strike force investigation came in response to an American-Statesman investigation into the commission’s multimillion-dollar, no-bid deals with 21CT, which was hired to help with Medicaid fraud investigations.</p>
         <p>Key excerpts from the 92-page report are below.</p>
         <p><a href="http://www.mystatesman.com/news/news/state-regional-govt-politics/abbotts-strike-force-report-on-texas-health-agency/nkhnr/">Related: Abbott’s strike force: 21CT deal a ‘fiasco’ that skirted the law <i class="fa fa-angle-double-right"></i></a></p>
@@ -122,7 +122,7 @@
 
           <div>
             <h2>The strike force</h2>
-            <p>The team, appointed by the governor's office, was led by <strong>Billy Hamilton</strong>, a former deputy comptroller, and included three other members who have experience with state contracts:</p>
+            <p>The team, appointed by the governor’s office, was led by <strong>Billy Hamilton</strong>, a former deputy comptroller, and included three other members who have experience with state contracts:</p>
             <ul>
               <li><strong>Scott McCown</strong>, clinical professor and director of the Children’s Rights Clinic at The University of Texas School of Law</li>
               <li><strong>Heather Griffith Peterson</strong>, chief financial officer of the Texas Department of Agriculture</li>
