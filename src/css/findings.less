@@ -1,0 +1,39 @@
+h3 {
+  font-weight: 600;
+}
+.finding-num {
+  background: @brand-primary;
+  color: white;
+  width: 33px;
+  line-height: 33px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.finding-img {
+  background-color: @gray-lighter;
+  padding: 2px;
+  font-size: 11.5px;
+  font-family: @font-family-sans-serif;
+  border-radius: 5px;
+  box-shadow: 0 0 12px lighten(@gray-lighter, 10%);
+  .transition(box-shadow 250ms);
+
+  .finding-img-meta {
+    padding: 5px 10px;
+  }
+
+  &:hover {
+    box-shadow: 0 0 12px @gray-lighter;
+  }
+}
+blockquote {
+  font-size: 14px;
+  background: lighten(@gray-lighter, 5%);
+  margin-bottom: 0;
+  border-left: none;
+}
+.finding {
+  margin-bottom: @line-height-computed * 1.75;
+}
