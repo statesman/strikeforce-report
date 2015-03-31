@@ -78,7 +78,7 @@
         <p>A report from a “strike force” assembled by Gov. Greg Abbott in the wake of the 21CT contracting scandal, released today, criticizes purchasing practices at the state's largest agency and at the state agency responsible for information technology purchasing.</p>
         <p>The report drew largely on news reports as source material in its explanation of how 21CT came to land a lucrative contract without competition. The strike force investigation came following an American-Statesman investigation into the commission’s multimillion-dollar, no-bid deals with 21CT, which was hired to help with Medicaid fraud investigations.</p>
         <p>Key excerpts from the 92-page report are below.</p>
-        <p><a href="http://www.mystatesman.com/news/news/state-regional-govt-politics/abbotts-strike-force-report-on-texas-health-agency/nkhnr/">Related: Abbott’s strike force: 21CT deal a ‘fiasco’ that skirted the law <i class="fa fa-angle-double-right"></i></a></p>
+        <p><span>Related:</span><br /><a target="_blank" href="http://www.mystatesman.com/news/news/state-regional-govt-politics/no-bid-21ct-deal-a-policy-fiasco-greg-abbotts-stri/nkjBx/#6def8c19.3846074.735688">No-bid 21CT deal a ‘policy fiasco,’ Greg Abbott’s strike force concludes <i class="fa fa-angle-double-right"></i></a><br /><a target="_blank" href="http://www.mystatesman.com/news/news/state-regional-govt-politics/after-scathing-report-will-kyle-janek-keep-his-job/nkjCS/#3565ec48.3846074.735688">After scathing report, will Kyle Janek keep his job? <i class="fa fa-angle-double-right"></i></a></p>
       </div>
 
       <hr />
