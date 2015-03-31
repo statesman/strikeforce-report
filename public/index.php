@@ -68,8 +68,6 @@
       </div>
     </nav>
 
-    <div id="spin" style="position:fixed;top:50%;left:50%;z-index:10000"></div>
-
     <article class="container">
       <div class="header">
         <h4>Texas state government</h4>
