@@ -91,7 +91,7 @@
               <div class="clearfix">
                 <div class="finding-num"><?php echo $i; ?></div>
                 <div class="finding-hed clearfix">
-                  <h3><?php echo $f->hed; ?><?php /* <a title="Share this" href="https://twitter.com/intent/tweet?text=<?php echo urlencode('21CT strike force report: ' . $f->hed); ?>&url=<?php echo urlencode($meta['url']); ?>&hashtags=txlege&related=statesman" target="_blank"><i class="fa fa-twitter"></i></a>*/?></h3>
+                  <h3><?php echo $f->hed; ?> <a title="Share this" href="https://twitter.com/intent/tweet?text=<?php echo urlencode('21CT strike force report: ' . $f->hed); ?>&url=<?php echo urlencode($meta['url']); ?>&hashtags=txlege&related=statesman" target="_blank"><i class="fa fa-twitter"></i></a></h3>
                   <p><?php echo $f->desc; ?></p>
                 </div>
               </div>
